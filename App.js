@@ -1,15 +1,25 @@
-import { View, Text } from "react-native";
+import React from 'react';
+import PortfolioPage from './PortfolioPage';
 
-export default function App() {
+const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
+    <PortfolioPage />
+    
+
   );
-}
+};
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
